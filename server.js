@@ -26,4 +26,4 @@ app.use('/catering', require('./routes/catering'));
 app.use('/query', require('./routes/query'));
 
 
-app.listen(process.env.PORT, () => console.log(`Server listening at PORT: ${process.env.PORT}`));
+app.listen(8080, () => console.log(`Server listening at PORT: $8080`));
